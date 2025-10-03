@@ -56,7 +56,15 @@ export default function Home() {
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover hidden md:block"
+        />
+        <Image
+          src={AWS + "/" + "Untitled+(Instagram+Post+(45)).png"}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover md:hidden block"
         />
         <span className="sr-only">
           Hero image of Ayurvedic herbs and traditional preparation
