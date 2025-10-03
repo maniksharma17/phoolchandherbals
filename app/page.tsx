@@ -59,7 +59,7 @@ export default function Home() {
           className="object-cover hidden md:block"
         />
         <Image
-          src={AWS + "/" + "Untitled+(Instagram+Post+(45)).png"}
+          src={AWS + "/" + "Untitled+(Instagram+Post+(45))+(1).png"}
           alt=""
           fill
           priority
