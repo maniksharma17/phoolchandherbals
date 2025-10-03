@@ -1,0 +1,1 @@
+export const LOGO=process.env.NEXT_PUBLIC_AWS_URL+"/phoolchandherbals-logo+(1).jpg"
