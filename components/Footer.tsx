@@ -20,10 +20,11 @@ export function Footer() {
   ];
 
   const quickLinks = [
-    { name: "About Us", href: "/about" },
     { name: "Contact", href: "/contact" },
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-and-conditions" },
+    { name: "Refund & Cancellation", href: "/cancellation-and-refund" },
+    { name: "Shipping & Exchange", href: "/shipping-and-exchange" },
   ];
 
   return (
