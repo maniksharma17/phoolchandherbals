@@ -16,8 +16,7 @@ import Image from "next/image";
 export function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/phoolchandherbals_/", label: "Instagram" },
   ];
 
   const quickLinks = [
@@ -94,18 +93,18 @@ export function Footer() {
             <div className="space-y-3 text-gray-400 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>support@phoolchand.com</span>
+                <span>support@phoolchandherbal.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 98378 63349</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5" />
                 <span>
-                  123 Business Street
+                  50, Kanoon Goyan
                   <br />
-                  Mumbai, Maharashtra 400001
+                  Roorkee, Haridwar, Uttarakhand, 247667
                 </span>
               </div>
             </div>
