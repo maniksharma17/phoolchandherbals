@@ -190,8 +190,8 @@ export default function CartPage() {
                       </Button>
                     </div>
 
-                    <div className="flex flex-row items-center justify-between mt-4">
-                      <div className="w-full justify-between flex flex-row items-center gap-4">
+                    <div className="flex flex-row items-start justify-flex-start mt-4">
+                      <div className="w-fit justify-between flex flex-row items-center gap-4">
                         <div className="flex items-center border border-gray-300 rounded-lg">
                           <Button
                             variant="ghost"
@@ -204,7 +204,7 @@ export default function CartPage() {
                           >
                             <Minus className="h-4 w-4" />
                           </Button>
-                          <span className="px-4 py-2 font-semibold min-w-[60px] text-center">
+                          <span className="px-0 py-2 font-semibold min-w-[40px] text-center">
                             {item.quantity}
                           </span>
                           <Button
@@ -218,7 +218,7 @@ export default function CartPage() {
                             <Plus className="h-4 w-4" />
                           </Button>
                         </div>
-                        <div className="text-lg font-medium text-gray-900">
+                        <div className="text-lg max-sm:text-md font-medium text-gray-900">
                           ₹{(item.variant.price * item.quantity).toFixed(2)}
                         </div>
                       </div>
