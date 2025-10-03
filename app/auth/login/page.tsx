@@ -52,7 +52,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white py-12 sm:pt-32 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-white py-28 sm:pt-32 px-4 sm:px-6 lg:px-8">
       <motion.div
         className="max-w-md w-full space-y-8"
         initial={{ opacity: 0, y: 30 }}
