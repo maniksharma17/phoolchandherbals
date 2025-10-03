@@ -50,19 +50,19 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'support@modernstore.com',
+      content: 'support@phoolchandherbal.com',
       description: 'Send us an email anytime'
     },
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+91 98765 43210',
+      content: '+91 98378 63349',
       description: 'Mon-Fri 9am-6pm IST'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Business Street\nMumbai, Maharashtra 400001',
+      content: '50 Kanoon Goyan\Roorkee, Uttarakhand 247667',
       description: 'Our main office'
     },
     {
