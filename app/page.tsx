@@ -49,6 +49,7 @@ export default function Home() {
   return (
     <div className="pt-16">
       {/* Hero: full-bleed background image, no overlay, no text */}
+      <Link href="/products">
       <section className="relative h-[70vh] sm:h-[80vh] lg:h-screen w-full">
         <Image
           src={AWS + "/" + "pch-hero-main.png"}
@@ -70,6 +71,8 @@ export default function Home() {
           Hero image of Ayurvedic herbs and traditional preparation
         </span>
       </section>
+      </Link>
+      
 
       {/* Trust strip */}
       <section className="bg-white border-b">
